@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+p.titolo {
+	font-weight: bold;
+    font-family: courier;
+    font-color:#0066ee;
+    font-size:50px;
+    
+}
+
+p.istruzione{
+    font-style: italic;
+        font-size:20px;
+    
+}
+
+p.avviso {
+    font-style: oblique;
+    font-size:50px;
+}
+select {
+    width: 300px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8ddb3c;
+    color:#ffffff;
+}
+input[type=text] {
+padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+    background-color: #3CBC8D;
+    color: white;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:12px;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+.exit {border-radius: 50%;
+background-color: #ff0077}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: courier;
+}
+
+a:visited {
+    text-decoration: none;
+     color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+     color: #ffffff;
+}
+
+a:active {
+    text-decoration: underline;
+     color: #ffffff;}
+
+     
+table {
+    border-collapse: collapse;
+    width: 100%;
+/*     table-align: center;
+ */        text-align: center;
+}
+
+th, td {
+	 /* text-align: center; */
+    padding: 8px;
+/*     text-align: left;
+ */    border-bottom: 1px solid #ddd;
+}
+
+/* tr:hover {background-color:#f5f5f5;} */
